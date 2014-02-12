@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<customers>
+  <customer id="1">
+    <first-name>Fred</first-name>
+    <last-name>Smith</last-name>
+    <pass>password</pass>
+    <email>fred@test.org</email>
+  </customer>
+  <customer id="2">
+    <first-name>Anna</first-name>
+    <last-name>Jones</last-name>
+    <pass>mercury</pass>
+    <email>anna.jones@gmail.com</email>
+    <phone>(02)51291100</phone>
+  </customer>
+  <customer id="3">
+    <first-name>Jed</first-name>
+    <last-name>Eigh</last-name>
+    <pass>theforce</pass>
+    <email>jedi@rebels.org</email>
+    <phone>0410200190</phone>
+  </customer>
+</customers>

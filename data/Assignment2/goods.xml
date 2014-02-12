@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<items>
+  <item id="1">
+    <name>Frogger Mini Game</name>
+    <price>25.99</price>
+    <desc>The classic Frogger arcade game, shrunk into a portable, vintage case&#x2014;you're sure to have fun for hours! The game has a cover which flips up, and on the other side is the screen which is reflected in a mirror.</desc>
+    <qty>
+      <total>5</total>
+      <hold>5</hold>
+      <sold>0</sold>
+    </qty>
+    <img>http://i.imgur.com/qEe1h6L.jpg</img>
+  </item>
+  <item id="2">
+    <name>Lego Duplo Set</name>
+    <price>200.99</price>
+    <desc>This massive Lego Duplo Set contains over 724 pieces, consisting of various sets including: Duplo Farm, Duplo Airport, Duplo Train set, Duplo tank engine and heaps of other building blocks.</desc>
+    <qty>
+      <total>50</total>
+      <hold>0</hold>
+      <sold>0</sold>
+    </qty>
+    <img>http://i.imgur.com/typFbvh.jpg</img>
+  </item>
+  <item id="3">
+    <name>Marvel Comic</name>
+    <price>31.99</price>
+    <desc>Two great vintage 70s classic Marvel comics, featuring the spectacular mighty Thor, Captain America and Iron Man adventures. Fifty off-white pages, from the Fawcett 1945 reserve.</desc>
+    <qty>
+      <total>15</total>
+      <hold>0</hold>
+      <sold>0</sold>
+    </qty>
+    <img>http://i.imgur.com/GLAelDF.jpg</img>
+  </item>
+  <item id="4">
+    <name>Crocheted Giraffe</name>
+    <price>5.99</price>
+    <desc>This cuddly handmade Giraffe is good quality to last a lifetime. It is a great gift for children. Comes in red, blue and green.</desc>
+    <qty>
+      <total>40</total>
+      <hold>0</hold>
+      <sold>0</sold>
+    </qty>
+    <img>http://i.imgur.com/Jq2lDdD.jpg</img>
+  </item>
+  <item id="5">
+    <name>Nikon DLSR</name>
+    <price>850.00</price>
+    <desc>The Nikon D40X is a lightweight and portable camera that proves that it can be both incredibly simple. Just turn on the camera's auto mode, look through the clear, bright viewfinder and shoot.</desc>
+    <qty>
+      <total>25</total>
+      <hold>0</hold>
+      <sold/>
+    </qty>
+    <img>http://i.imgur.com/7zgavDN.jpg</img>
+  </item>
+  <item id="6">
+    <name>Model Train</name>
+    <price>19.49</price>
+    <desc>Excellent cosmetic condition of a Hornby Class 29 in British Rail Blue Livery. Locomotive runs excellent in both direction, all buffers and coupling hooks are present.</desc>
+    <qty>
+      <total>25</total>
+      <hold>0</hold>
+      <sold>10</sold>
+    </qty>
+    <img>http://i.imgur.com/2hFvxe7.jpg</img>
+  </item>
+  <item id="7">
+    <name>Whoopee Cushion</name>
+    <price>2.95</price>
+    <desc>It's the classic&#x2014;the one and only whoopee cushion!  Blow it up, put it under someone's cushion and wait for the fun!</desc>
+    <qty>
+      <total>100</total>
+      <hold>0</hold>
+      <sold>15</sold>
+    </qty>
+    <img>http://i.imgur.com/NijItIi.jpg</img>
+  </item>
+      
+</items>

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+		<!-- Description: BuyOnline Register Page -->
+		<!-- Author: Alex Cummaudo -->
+		<!-- Date: 10 Oct 2013 -->
+		<!-- Validated: N/A -->
+	<head>
+        <title>BuyOnline</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Alex Cummaudo" />
+        <meta name="description" content="BuyOnline provides you with the easiest buying services ever!" />
+        <meta name="keywords" content="buy, goods, assignment2, wad" />
+        <!-- Bootstrap & jQuery Framework -->
+            <script type="text/javascript" src="./js/jquery-min.js"></script>
+            <script type="text/javascript" src="./bootstrap/js/bootstrap-min.js"></script>
+            <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-min.css" />
+            <!--[if lt IE 9]>
+                <script src="./js/html5shiv.js"></script>
+                <script src="./js/respond.min.js"></script>
+            <![endif]-->
+        <!-- / Bootsrap & jQuery Framework -->
+        <link rel="stylesheet" type="text/css" href="./style/core.css" />                
+        <script type="text/javascript" src="./js/jquery-ui-updates-xhtml.js"></script>
+        <script type="text/javascript" src="./js/form-validate.js"></script>
+        <script type="text/javascript" src="./js/ajax-request.js"></script>
+        <script type="text/javascript" src="./js/catalogue.js"></script>
+	</head>
+	<body onload="updateCart();">
+        <!--[if lt IE 8]><p class="ieerror"><strong>Warning:</strong> Please disable CSS for compatibility with this version of IE</p><![endif]-->
+        <div class="container">
+            <div id="hero" class="jumbotron">
+                <h1>BuyOnline</h1>
+                <p>The easiest way buy anything online</p>
+            </div><!--/hero-->
+            <div id="head" class="page-header">
+                <span class="glyphicon glyphicon-tags"></span>
+                <h2>Catalogue</h2>
+                <p>Choose anything you like and select add to cart.</p>
+            </div><!--/header-->
+            <div id="shopping-cart" class="panel panel-default col-md-4">
+                <!-- dynamically generated from XML on server -->
+            </div><!--/shopping-cart-->
+            <div id="listings" class="col-md-7 col-md-offset-5">
+                <!-- dynamically generated from XML on server -->
+            </div><!--/listings-->
+        </div><!--/container-->
+        <div id="footer" class="container">
+            <p>&copy; BuyOnline Pty Ltd 2013.</p>
+        </div><!--/footer-->
+	</body>
+</html>

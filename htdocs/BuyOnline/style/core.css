@@ -1,0 +1,70 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * Description: HIT3324 Web Application Development
+ *              Assignment Two
+ *              Core CSS for BuyOnline Website
+ *      Author: Alex Cummaudo
+ *        Date: 10 Oct 2013
+ * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Core Semantics */
+html,body{ height: 100%; }
+.container { max-width: 1000px; }
+
+/* Hero */
+#hero { text-align: center; border-radius: 0px 0px 20px 20px; }
+
+/* Signin Buttons */
+#sign-btns { padding-top: 30px; }
+#sign-btns a.btn { width: 175px; }
+#sign-btns p.btn-middle-txt { width: 115px; display: inline-block; font-style: oblique; font-size: 18pt; text-align: center; }
+#sign-btns .dropdown { display: inline; }
+
+/* Forms */
+#signup-content, #lookup-content, #request-content { width: 750px; margin: 30px auto 0 auto; padding: 0 20px 10px 20px; border-radius: 10px; text-align: left; }
+form input { border-radius: 5px !important; }
+form p.help-block { text-align: left; padding-left: 5px; }
+
+/* Signin Menu */
+#signin-content { width: 450px; margin: 0 auto; padding: 0 20px 10px 20px; border-radius: 10px; }
+#signin-content h1 { font-size: 12pt; color: #555; margin: 20px 0 10px 0; }
+#signin-content .input-group { margin: 5px 0; }
+#signin-content .input-group input { position: relative; top: 1px; }
+ 
+/* Footer */
+#footer { margin-top: 40px; }
+#footer p { height: 25px; color: #AAA; text-align: center; font-size: 9pt;  }
+
+/* Sign-In Form */
+form input[type='submit'], form input[type='reset'], form a.btn { margin: 10px 0 -5px 0 !important; }
+#signin-content form .input-group > .input-group-addon + input { border-radius: 0px 5px 5px 0px !important; }
+#signin-content form .input-group.has-error > .input-group-addon + input { border-radius: 0px 5px 0px 0px !important; }
+#signin-content form .input-group.has-error > .input-group-addon + input + p.help-block { position: relative; top: 1px; margin: 0px; padding: 10px 0; color: #b94a48; background-color: #f2dede; border-style: none solid solid none; border-color: #b94a48; border-width: 1px; border-radius: 0px 0px 5px 0px; }
+
+/* Shopping Cart */
+#shopping-cart { padding: 0px; position: fixed; top: 433px; width: 400px; }
+#shopping-cart .item-head * { display: inline; }
+#shopping-cart .item-head p.lead { font-size: 11pt; }
+#shopping-cart p.price { margin-left: 15px; }
+#shopping-cart .panel-footer { height: 50px; }
+#shopping-cart .panel-footer h4 { float: left; margin: 5px 0 0 0; }
+#shopping-cart #finalise-btns { float: right; clear: none; }
+#shopping-cart #finalise-btns .btn { margin-left: 5px; }
+
+/* Catalogue */
+#listings .pricetag { font-size: 15pt; clear:none; float: right; }
+#listings .item { min-height: 240px; }
+#listings .item-side  { float: left; clear: none;  margin-right: 15px; width: 120px; text-align: center; }
+#listings .item-side a { margin-top: 10px; }
+#listings .item-head * { display: inline; }
+#listings .item-head p.lead { font-size: 14pt; }
+#listings .item-body { margin: 10px 10px 0 155px; }
+#listings #initial-loading { min-height: 250px; }
+
+/* Class-Specific */
+input.placeholder { color: #AAA; }
+textarea { border-radius: 5px !important; }
+.close { display: block; }
+.alert:not(.alert-dismissable){ text-align: center; }
+.page-header { text-align: center; }
+.page-header .glyphicon { font-size: 28pt !important; }
+.ieerror { width: 100%; background-color: #f2dede; color: #b94a48; font-size: 150%; border-bottom: 1px #b94a48 solid; text-align: center; padding:40px; margin-bottom: 0px; }

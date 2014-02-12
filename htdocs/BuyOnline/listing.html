@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+		<!-- Description: BuyOnline Register Page -->
+		<!-- Author: Alex Cummaudo -->
+		<!-- Date: 10 Oct 2013 -->
+		<!-- Validated: N/A -->
+	<head>
+        <title>BuyOnline</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Alex Cummaudo" />
+        <meta name="description" content="BuyOnline provides you with the easiest buying services ever!" />
+        <meta name="keywords" content="buy, goods, assignment2, wad" />
+        <!-- Bootstrap & jQuery Framework -->
+            <script type="text/javascript" src="./js/jquery-min.js"></script>
+            <script type="text/javascript" src="./bootstrap/js/bootstrap-min.js"></script>
+            <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-min.css" />
+            <!--[if lt IE 9]>
+                <script src="./js/html5shiv.js"></script>
+                <script src="./js/respond.min.js"></script>
+            <![endif]-->
+        <!-- / Bootsrap & jQuery Framework -->
+        <link rel="stylesheet" type="text/css" href="./style/core.css" />                
+        <script type="text/javascript" src="./js/jquery-ui-updates-xhtml.js"></script>
+        <script type="text/javascript" src="./js/form-validate.js"></script>
+        <script type="text/javascript" src="./js/ajax-request.js"></script>
+        <script type="text/javascript" src="./js/processor.js"></script>
+	</head>
+	<body>
+        <!--[if lt IE 8]><p class="ieerror"><strong>Warning:</strong> Please disable CSS for compatibility with this version of IE</p><![endif]-->
+        <div class="container">
+            <div id="hero" class="jumbotron">
+                <h1>BuyOnline</h1>
+                <p>The easiest way buy anything online</p>
+            </div><!--/hero-->
+            <div id="nav">
+                <a href="logout.html" class="btn btn-warning btn-large pull-right"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="listing.html">Enter Listing</a></li>
+                    <li><a href="processing.html">Process Purchases</a></li>
+                </ul>
+            </div><!--/nav-->
+            <div id="page-header" class="page-header">
+                <span class="glyphicon glyphicon-list-alt"></span>
+                <h2>Enter Item Listing</h2>
+                <p>Fill out the form below to add a listing to the catalogue.</p>
+            </div><!--/header-->
+            <div class="container">
+                <div id="listing-content" class="col-md-12">
+                    <form id="listing" method="post" class="form-horizontal" action="" onsubmit="processForm(this.id, 'add-item'); return false;">
+                        <div id="first-name-group" class="form-group">
+                            <label class="col-lg-3 control-label" for="item-name">Item Name:</label>
+                            <div class="col-lg-8 input-group">
+                                <input id="item-name" name="item-name" class="form-control input-lg placeholder required" onfocus="pushMessage(this, null);" type="text" />
+                            </div>
+                        </div><!--/item-name-group-->
+                       <div id="desc-group" class="form-group">
+                            <label class="col-lg-3 control-label" for="desc">Item Description:</label>
+                            <div class="col-lg-8 input-group">
+                                <textarea id="desc" name="desc" class="form-control input-lg required" onfocus="pushMessage(this, null);" cols="auto" rows="8"></textarea>
+                            </div>
+                        </div><!--/description-group-->
+                        <div id="cost-group" class="form-group">
+                            <label class="col-lg-3 control-label" for="price">Item Price:</label>
+                            <div class="col-lg-8 input-group">
+                                <input id="price" name="price" class="form-control input-lg placeholder required"  onfocus="pushMessage(this, null);" onchange="checkInput(this.id,'price');"  type="text" />
+                            </div>
+                        </div><!--/price-group-->
+                        <div id="qty-group" class="form-group">
+                            <label class="col-lg-3 control-label" for="qty">Quantity:</label>
+                            <div class="col-lg-8 input-group">
+                                <input id="qty" name="qty" class="form-control input-lg placeholder required"  onfocus="pushMessage(this, null);" onchange="checkInput(this.id,'qty');"  type="text" />
+                            </div>
+                        </div><!--/qty-group-->
+                        <div id="img-group" class="form-group">
+                            <label class="col-lg-3 control-label" for="img">Thumbnail Image URL:</label>
+                            <div class="col-lg-8 input-group">
+                                <input id="img" name="img" class="form-control input-lg placeholder"  onfocus="pushMessage(this, null);"  type="text" />
+                            </div>
+                        </div><!--/img-group-->
+                        <div id="submit-group" class="form-group">
+                            <div class="col-lg-offset-3 col-lg-9">
+                                <input type="submit" value="Add Item" class="btn btn-primary"/>
+                                <input type="reset" class="btn btn-default"/>
+                            </div>
+                        </div><!--/listing-group-->
+                    </form><!--/form-->
+                </div>
+            </div><!--/form-group-->
+            
+            <div id="footer" class="container">
+                <p>&copy; BuyOnline Pty Ltd 2013.</p>
+            </div><!--/footer-->
+        
+        </div><!--/container-->
+	</body>
+</html>
